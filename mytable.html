@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>KYU Time Table</title>
+
+<style>
+table{
+border-collapse: collapse;
+width: 600px;
+text-align: center;
+}
+
+th, td{
+border: 2px solid black;
+padding: 10px;
+height: 50px;
+}
+
+.title{
+font-weight: bold;
+font-size: 20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<table>
+
+<tr>
+<th colspan="5" class="title">KYU TIME TABLE</th>
+</tr>
+
+<tr>
+<th>MON</th>
+<th>TUE</th>
+<th>WED</th>
+<th>THUR</th>
+<th>FRI</th>
+</tr>
+
+<tr>
+<td colspan="2">BITC</td>
+<td rowspan="3">BIS</td>
+<td>BITC</td>
+<td rowspan="3">BLIS</td>
+</tr>
+
+<tr>
+<td>BITC</td>
+<td>BIS</td>
+<td>BLIS</td>
+</tr>
+
+<tr>
+<td colspan="2">BLIS</td>
+<td>BIS</td>
+
+</tr>
+<tr>
+<td colspan="5"><b>BREAK</b></td>
+</tr>
+
+</table>
+
+</body>
+</html>
